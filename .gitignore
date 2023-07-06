@@ -1,5 +1,5 @@
 # build files from CMake
-build
+build*/
 
 # installed libs
 lib

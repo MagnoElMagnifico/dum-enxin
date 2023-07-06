@@ -16,5 +16,9 @@ add_compile_options(
 
 file(GLOB_RECURSE sources src/*.c)
 add_executable(dum ${sources})
-target_link_libraries(dum SDL2)
+
+find_package(SDL2 REQUIRED)
+include_directories(dum ${SDL2_INCLUDE_DIRS})
+
+target_link_libraries(dum ${SDL2_LIBRARIES})
 
