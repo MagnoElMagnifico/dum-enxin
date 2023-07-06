@@ -1,0 +1,14 @@
+# build files from CMake
+build
+
+# installed libs
+lib
+
+# avoid other possible executables
+/**/*.out
+/**/*.o
+/**/*.a
+/**/*.lib
+/**/*.dll
+/**/*.so
+
