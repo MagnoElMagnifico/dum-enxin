@@ -1,0 +1,16 @@
+{
+  "configurations": [
+      {
+          "name": "Win32",
+          "includePath": [
+              "${workspaceFolder}\\src\\**",
+              "C:\\Dev\\SDL2\\include\\**"
+          ],
+          "compilerPath": "C:\\MinGW\\bin\\gcc",
+          "cStandard": "c17",
+          "cppStandard": "c++17",
+          "intelliSenseMode": "clang-x64"
+      }
+  ],
+  "version": 4
+}
