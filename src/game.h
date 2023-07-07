@@ -17,6 +17,9 @@ typedef struct dum_Game {
     SDL_Renderer* renderer;
     bool running;
 
+    // Player square
+    SDL_Rect sqr;
+
     // TODO: Game state
     // TODO: Game entities
 } dum_Game;
